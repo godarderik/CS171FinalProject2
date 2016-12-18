@@ -17,6 +17,7 @@
 		CE5F827A1E04E1C600816910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5F82781E04E1C600816910 /* LaunchScreen.storyboard */; };
 		CE5F82851E04E1C600816910 /* CS171FinalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5F82841E04E1C600816910 /* CS171FinalProjectTests.m */; };
 		CE5F82901E04E1C600816910 /* CS171FinalProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5F828F1E04E1C600816910 /* CS171FinalProjectUITests.m */; };
+		CE5F82A01E06488000816910 /* Particle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5F829F1E06488000816910 /* Particle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		CE5F828B1E04E1C600816910 /* CS171FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CS171FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5F828F1E04E1C600816910 /* CS171FinalProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CS171FinalProjectUITests.m; sourceTree = "<group>"; };
 		CE5F82911E04E1C600816910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5F829E1E06488000816910 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../Particle.h; sourceTree = "<group>"; };
+		CE5F829F1E06488000816910 /* Particle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Particle.m; path = ../Particle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 		CE5F82651E04E1C600816910 /* CS171FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				CE5F829E1E06488000816910 /* Particle.h */,
+				CE5F829F1E06488000816910 /* Particle.m */,
 				CE5F82691E04E1C600816910 /* AppDelegate.h */,
 				CE5F826A1E04E1C600816910 /* AppDelegate.m */,
 				CE5F826C1E04E1C600816910 /* Shader.fsh */,
@@ -282,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5F826B1E04E1C600816910 /* AppDelegate.m in Sources */,
+				CE5F82A01E06488000816910 /* Particle.m in Sources */,
 				CE5F82721E04E1C600816910 /* GameViewController.m in Sources */,
 				CE5F82681E04E1C600816910 /* main.m in Sources */,
 			);
