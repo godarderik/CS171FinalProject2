@@ -58,6 +58,7 @@
 		CE5F82911E04E1C600816910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5F829E1E06488000816910 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../Particle.h; sourceTree = "<group>"; };
 		CE5F829F1E06488000816910 /* Particle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Particle.m; path = ../Particle.m; sourceTree = "<group>"; };
+		CE5F82A91E066EEE00816910 /* rigtform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rigtform.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 				CE5F826C1E04E1C600816910 /* Shader.fsh */,
 				CE5F826E1E04E1C600816910 /* Shader.vsh */,
 				CE5F82701E04E1C600816910 /* GameViewController.h */,
+				CE5F82A91E066EEE00816910 /* rigtform.h */,
 				CE5F82711E04E1C600816910 /* GameViewController.m */,
 				CE5F82731E04E1C600816910 /* Main.storyboard */,
 				CE5F82761E04E1C600816910 /* Assets.xcassets */,
